@@ -1,0 +1,153 @@
+/*---------------------------- COLOR: #e67e22 -------------------------------*/
+
+
+/*---------------------------- GENERAL  -------------------------------*/
+
+* {
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+html { 
+    
+    font-family: "Lato";
+    font-size:20px;
+    
+}
+
+/*---------------------------- RESUABLE -------------------------------*/
+
+.row { 
+    
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1140px;
+    padding-top:30px;
+    
+
+}
+
+
+/*---------------------------- HEADINGS -------------------------------*/
+
+h1 {
+    
+    color:#fff;
+    font-size:220%;
+    font-weight:300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 145%;
+    
+    
+}
+
+h2 { 
+    
+    color:#fff;
+    font-size:180%;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    border-bottom:3px solid #e67e22;
+    padding:10px;
+    line-height: 145%;
+
+}
+
+
+
+/*---------------------------- HEADER -------------------------------*/
+
+
+header {
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.7)), url(images/barista-drzi-solju-kafe.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.hero-box {
+    
+    margin-top:90px;
+    margin-bottom:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.not-logo {
+    
+    height:390px;
+    border-radius:250px;
+    margin-top:-80px;
+    text-align:center;
+    
+}
+
+
+
+.nav-box {
+    
+    margin-top:10px;
+    list-style: none;
+    font-size:50px;
+    margin-right:220px;
+    font-weight:300;
+
+    
+    
+}
+
+.nav-box li { 
+    
+    display:inline-block;
+    float:right;
+    
+    
+    
+    
+}
+
+.nav-box li a  {
+    
+    
+
+    color:#fff;
+    text-decoration: none;
+    margin-right:40px;
+    margin-left:40px;
+    padding-bottom:5px;
+    font-weight:300;
+    letter-spacing:1px;
+    line-height: 145%;
+    transition: border-bottom 0.2s;
+    
+}
+
+
+.nav-box li a:hover,
+.nav-box li a:active {
+    
+    border-bottom:3px solid #e67e22;
+}
+
+
+.adresa {
+    
+    color:#fff;
+    padding-bottom:30px;
+    font-size:150%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-bottom:3px solid #e67e22;
+        
+    
+}
+
+
