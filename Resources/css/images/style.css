@@ -36,11 +36,11 @@ html {
 h1 {
     
     color:#fff;
-    font-size:220%;
-    font-weight:300;
+    font-size:250%;
     letter-spacing: 1px;
     word-spacing: 3px;
-    line-height: 145%;
+    line-height: 145%;;
+    text-transform: uppercase;
     
     
 }
@@ -54,6 +54,7 @@ h2 {
     border-bottom:3px solid #e67e22;
     padding:10px;
     line-height: 145%;
+    font-weight: 300;
 
 }
 
@@ -64,10 +65,11 @@ h2 {
 
 header {
     
-    background-image:linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.7)), url(images/barista-drzi-solju-kafe.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(barista-drzi-solju-kafe.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
+    
 }
 
 .hero-box {
@@ -96,10 +98,9 @@ header {
     
     margin-top:10px;
     list-style: none;
-    font-size:50px;
-    margin-right:220px;
+    font-size:180%;
     font-weight:300;
-
+    text-align: center;
     
     
 }
@@ -107,7 +108,7 @@ header {
 .nav-box li { 
     
     display:inline-block;
-    float:right;
+    
     
     
     
@@ -126,7 +127,9 @@ header {
     font-weight:300;
     letter-spacing:1px;
     line-height: 145%;
-    transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s, border-bottom 0.2s; 
+    border-bottom:3px solid transparent;
+    padding-bottom:10px;
     
 }
 
